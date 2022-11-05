@@ -1,0 +1,16 @@
+Todos.
+
+0. Understand react architecture. - Done.
+1. Create React Project.
+2. Create Home component.
+3. Create 3 components.
+    => left, center, right.
+
+
+
+
+
+
+
+
+

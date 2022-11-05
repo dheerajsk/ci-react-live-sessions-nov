@@ -1,0 +1,35 @@
+
+React.
+    > What is react ?
+        => JS library to design modern web applications.
+        => Librarues gives you inbuilt functionalities.
+    > Why we need React ?
+        => Don't need to create web applications.
+        => Convienince.
+        => Rapid Develop.
+        => AJAX.
+    > How to use React ?
+        => Creating twitter.
+    > Architecture.
+        => How Does React works ?
+        1. Component based development.
+            => Components ? Reusability.
+        2. Modularization.
+            => Breaking bigger problem into smaller problems.
+        3. Virtual DOM.
+            => Document Object Model
+            => Copy of actual DOM.
+            => Heavier to update dom ?
+        4. JSX => 
+            JavaScript Extenstion.
+            HTML+CSS+JavaScript.
+
+
+
+            HTML.
+        HEAD    BODY.
+            CONTAINER     FORM
+        MAIN    NAV     input   button.
+
+
+npm vs npx ?
