@@ -1,0 +1,20 @@
+
+.homeContainer{
+    display: flex;
+    height: 100%;
+    /* background-color: brown; */
+}
+
+.leftContainer{
+    width: 20%;
+}
+
+.rightContainer{
+    width: 30%;
+}
+
+.centerContainer{
+    width: 50%;
+    border-left: 1px solid lightblue;
+    border-right: 1px solid lightblue;
+}

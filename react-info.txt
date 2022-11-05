@@ -31,5 +31,19 @@ React.
             CONTAINER     FORM
         MAIN    NAV     input   button.
 
+        HTML-HEAD-BODY-CONTAINER-MAIN-NAV-FORM-INPUT-BUTTON.
+        HTML-HEAD-BODY-CONTAINER-FORM-MAIN-NAV-INPUT-Button.
+
 
 npm vs npx ?
+
+
+BootStrap.
+=> Library for CSS.
+
+
+Tree - Data Structure.
+
+2 popular algo.
+1. Depth First
+2. Breadth First.
