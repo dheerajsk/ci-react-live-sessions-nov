@@ -2,7 +2,7 @@
 import './Home.css';
 import HomeOption from '../HomeOption/HomeOption';
 import LoginOption from '../LoginOption/LoginOption';
-import Feed from '../Feed/Feed';
+import Feed from '../Feed/Feed/Feed';
 
 function Home(){
     return (

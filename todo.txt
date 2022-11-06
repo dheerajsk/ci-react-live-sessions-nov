@@ -22,3 +22,10 @@ Todos.
 
 
 
+1. We have data in json file.
+2. on feed We need to read the file.
+3. Feed is rendering trending components
+4. pass data to trending componoent.
+
+1. Trending component => rendering just 1 trend.
+2. Feed. => to read data and render trending component for each data.

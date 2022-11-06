@@ -1,0 +1,7 @@
+
+Async programming.
+    => programming which might take unpredictable amount of time to complete.
+
+
+Promise.
+HTTP. => Protocol.

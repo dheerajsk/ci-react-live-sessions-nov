@@ -1,8 +1,56 @@
-import './Feed.css'
+import Trending from '../Trending/Trending';
+import './Feed.css';
+
+import {useEffect, useState} from "react"; 
 
 function Feed(){
+
+    // a new state => whenever counter value change, update component.
+    const [counter, setCounter]=useState(1);
+    const [counter2, setCounter2]=useState(10);
+    const updateCounter = ()=>{
+        setCounter(counter+1);
+        console.log(1);
+    }
+    const updateCounter2 = ()=>{
+        setCounter2(counter2+1);
+        console.log(1);
+    }
+    // 1. Read data
+    // Fetch => a js function to get data from different sources.
+    // sources=> api, file, json, [local, remote]
+    // returns a promise= > async operation.
+    // we listen to promsie, and after receiving data convert to json.
+
+    // headers => 
+    console.log("1");
+
+    // manage sideeffects of component updates.
+    useEffect(()=>{
+        fetch("trendingData.json", {
+            headers:{
+                'Content-Type':'application/json',
+                'Accept':'application/json'
+            }
+        }).then(
+            (res)=>{
+                return res.json()
+            }
+        ).then(
+            (res)=>{
+                console.log(res);
+            }
+        );
+    },[counter, counter2]);
+
     return(
         <div>
+                    <p>{counter}</p>
+        <button onClick={updateCounter} type="button" >Counter</button>
+        <button onClick={updateCounter2} type="button" >Counter 2</button>
+
+
+
             <div className="searchHeader">
             {/* Search Box */}
             <div className="searchBox">
@@ -38,6 +86,12 @@ function Feed(){
                 </ul>
             </nav>
 
+            {/* Banner */}
+            <div className="banner">
+                <p className="banner_small">ICC T20 WorldCup . Sports</p>
+                <p className="banner_large">India vs Zimbabwe</p>
+            </div>
+            <Trending />
         </div>
     )
 }

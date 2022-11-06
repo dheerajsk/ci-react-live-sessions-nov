@@ -31,3 +31,26 @@ ul a{
     height: 36px;
     margin-left: 24px;
 }
+
+.banner{
+    height: 320px;
+    border: 1px solid lightblue;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("https://c.ndtvimg.com/2022-10/leo8jm8_team-india-afp-_625x300_27_October_22.jpg?im=FaceCrop,algorithm=dnn");
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.banner_small{
+    color: white;
+    font-size: smaller;
+}
+
+.banner_large{
+    color: white;
+    font-size:40px;
+    font-weight: bold;
+}

@@ -47,3 +47,17 @@ Tree - Data Structure.
 2 popular algo.
 1. Depth First
 2. Breadth First.
+
+
+useState.
+    => it creates a new state for Component.
+    => when data changes, component is going to refresh.
+
+
+useEffect and its depencies.
+    => lifecyle hook for react.
+    => wrap tasks in component which should be executed only when.
+        component created.
+    => manage side effects.
+
+    Creation=>  => Destroy
