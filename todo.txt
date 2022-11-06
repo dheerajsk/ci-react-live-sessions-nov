@@ -2,10 +2,17 @@ Todos.
 
 0. Understand react architecture. - Done.
 1. Create React Project. - Done.
-2. Create Home component.
-3. Create 3 components.
+2. Create Home component. - Done.
+3. Create 3 components. - Done.
     => left, center, right.
-4. Installing Bootstrap.
+4. Installing Bootstrap. - Done.
+
+
+5. CReate Search box.
+6. Links.
+7. Banner.
+8. Trending.
+9. Tweets.
 
 
 

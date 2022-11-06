@@ -2,6 +2,7 @@
 import './Home.css';
 import HomeOption from '../HomeOption/HomeOption';
 import LoginOption from '../LoginOption/LoginOption';
+import Feed from '../Feed/Feed';
 
 function Home(){
     return (
@@ -9,7 +10,9 @@ function Home(){
             <div className="leftContainer">
                 <HomeOption />
             </div>
-            <div className="centerContainer">Center</div>
+            <div className="centerContainer">
+                <Feed />
+            </div>
             <div className="rightContainer">
                 <LoginOption />
             </div>
