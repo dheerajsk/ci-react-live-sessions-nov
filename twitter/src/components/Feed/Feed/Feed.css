@@ -54,3 +54,17 @@ ul a{
     font-size:40px;
     font-weight: bold;
 }
+
+hr{
+    color: lightblue;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav{
+    padding: 4px;
+}

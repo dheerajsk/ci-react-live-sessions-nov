@@ -2,6 +2,8 @@
 .card{
     margin: 12px 30px;
     border-radius: 12px !important;
+    position: sticky !important;
+    top: 12px;
 }
 
 .card-text{

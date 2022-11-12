@@ -52,6 +52,7 @@ Tree - Data Structure.
 useState.
     => it creates a new state for Component.
     => when data changes, component is going to refresh.
+    => keeps your data unchanged.
 
 
 useEffect and its depencies.
@@ -61,3 +62,7 @@ useEffect and its depencies.
     => manage side effects.
 
     Creation=>  => Destroy
+
+props.
+pass data.
+using loops to render same conopnent multiple times.

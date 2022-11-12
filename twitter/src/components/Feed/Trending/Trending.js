@@ -1,12 +1,15 @@
 
 import './Trending.css'
 
-function Trending(){
+// props is an object which contains all attributes passed to the component.
+
+function Trending(props){
+    const data =props.data;
     return(
         <div className="trendingMain">
-            <p className="header_small">Trending in India</p>
-            <p className="text">Oreo</p>
-            <p className="header_small">31.5k Tweets</p>
+            <p className="header_small">{data.header}</p>
+            <p className="text">{data.text}</p>
+            <p className="header_small">{data.tweetCount}</p>
         </div>
     )
 }
