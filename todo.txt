@@ -29,3 +29,72 @@ Todos.
 
 1. Trending component => rendering just 1 trend.
 2. Feed. => to read data and render trending component for each data.
+
+
+1. Profile Page.
+2. Add new tweet feature.
+
+1. Routing.
+2. Form Even handling.
+3. Event passing.
+4. How to use dialog boxes in react.
+
+
+
+Climibing ME.
+
+
+BaseCamp. => 5600 mtrs.
+    => 1=1.5 month.
+    5 days.
+    1st attempt to camp1.
+    back to abse camp.
+Camp1 => 6300
+    => 1. 2- days.
+    => 2. 2-days.
+
+Camp2 => 7100
+    => 1. 2 days.
+    => back to camp 1.
+    => back to camp 2.
+    => camp 3.
+
+Camp3 => 7900
+    => camp2 => back to camp 3.
+
+====Dangerous.
+
+Summit.
+
+
+
+1. What is React ?
+2. Why React is needed ?
+3. How to create react project ?
+4. Features of react.
+5. What is compoennt ?
+6. What is JSX ?
+6.x - WHat is DOM ?
+7. WHat is Virtual DOM ? - 
+8. How to create components ?
+9. Naming Conventions for react files.
+10. export/import.
+11. How to style your react components?
+12. How to use bootstrap ? - X
+13. How to use icons ?
+14. How to use Routers ?
+15. What are lifecycle hooks ? -X
+16. useState.
+17. useEffect.
+18. fetch.
+19. How to render multiple components using map.
+20. Event handlings.
+21. Passing data using props.
+
+
+DOM ? => Document Object Model.
+
+
+
+Component=> Created ===useState======useEffect=================== Destroyed
+

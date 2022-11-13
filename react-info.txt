@@ -66,3 +66,16 @@ useEffect and its depencies.
 props.
 pass data.
 using loops to render same conopnent multiple times.
+
+
+
+Library -> inbuilt tools.
+framework => library+additional structure, robustness.
+
+
+
+Home.
+    HomeOption - Feed - LoginOption.
+
+Profile.
+ HomeOption - ProfileMain - LoginOption.
